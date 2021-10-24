@@ -15,7 +15,7 @@ struct ContentView: View {
         
         
         List{
-            Section(header: Text("Header"), footer: Text("Footer")){
+            Section(header: Text("Header").font(.title2).foregroundColor(.green), footer: Text("Footer")){
                 
                 ForEach(0..<listContents.count){ number in
                  
